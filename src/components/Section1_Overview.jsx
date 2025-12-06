@@ -92,7 +92,7 @@ function Section1_Overview() {
             </p>
           </div>
           <div className="source-item">
-            <a href="https://journals.sagepub.com/doi/abs/10.1177/0193723509345541" target="_blank" rel="noopener noreferrer">
+            <a href="https://journals.sagepub.com/doi/pdf/10.1177/0193723509350611" target="_blank" rel="noopener noreferrer">
               <strong>Pflugfelder (2009): Gendered Bodies in Motorsport</strong>
             </a>
             <p className="source-description">

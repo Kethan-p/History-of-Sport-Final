@@ -149,7 +149,7 @@ function Section3_Challenges() {
           </div>
           <div className="source-item">
             <a href="https://www.womeninsport.org/research-and-advice/our-publications/where-are-all-the-women" target="_blank" rel="noopener noreferrer">
-              <strong>Women in Sport et al. (2018): Where Are All the Women? Media Visibility Report</strong>
+              <strong>Women in Sport (2018): Where Are All the Women? Media Visibility Report</strong>
             </a>
             <p className="source-description">
               Comprehensive research report examining the visibility of women's sport in the media, revealing 
@@ -225,6 +225,16 @@ function Section3_Challenges() {
               A comprehensive analysis of the structural barriers preventing women's participation in Formula One, 
               examining how historical exclusion, financial inequalities, cultural assumptions, and physical barriers 
               intersect to create persistent underrepresentation.
+            </p>
+          </div>
+          <div className="source-item">
+            <a href="https://www.tandfonline.com/doi/full/10.1080/09523367.2016.1168811" target="_blank" rel="noopener noreferrer">
+              <strong>Matthews & Pike (2016): Understanding Women in Motorsport</strong>
+            </a>
+            <p className="source-description">
+              Academic research examining the historical and contemporary experiences of women in motorsport, 
+              exploring the question "What on earth are they doing in a racing car?" and analyzing the barriers 
+              and opportunities for women in the sport.
             </p>
           </div>
         </div>
