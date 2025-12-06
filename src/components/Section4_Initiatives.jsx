@@ -7,8 +7,12 @@ function Section4_Initiatives() {
       <div className="initiatives-section">
         <h3>Current Initiatives & Programs</h3>
         <p className="section-intro">
-          Several programs are working to break down barriers and create pathways for women in Formula One:
-        </p>
+  Over the last decade, Formula One and its surrounding institutions have begun developing targeted 
+  programs to address the historical inequalities that have prevented women from progressing through 
+  the motorsport pipeline. These initiatives aim not only to identify female talent but also to 
+  dismantle structural barriers involving funding, access to karting, representation, and 
+  long-standing cultural stereotypes within the sport.
+</p>
 
         <div className="initiatives-grid">
           {initiatives.map((initiative, index) => (
@@ -28,48 +32,62 @@ function Section4_Initiatives() {
         </div>
       </div>
 
-      <div className="media-section">
-        <h3>Media Representation & Coverage</h3>
-        <p className="section-intro">
-          How women are represented in media significantly impacts their opportunities and public perception:
-        </p>
+      <div className="future-section">
+  <h3>Future Possibilities</h3>
+  <div className="future-grid">
 
-        <div className="media-issues">
-          <h4>Key Issues in Media Coverage</h4>
-          <div className="issues-grid">
-            {mediaAnalysis.coverage.map((item, index) => (
-              <div key={index} className="issue-card">
-                <h5>{item.issue}</h5>
-                <p>{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+    <div className="future-item">
+      <h4>F1 Academy & Integrated Development Pathways</h4>
+      <p>
+        The launch of F1 Academy in 2023 represents the first attempt to create a structured, FIA-aligned 
+        ladder system specifically for women. Future success depends on whether the program becomes 
+        integrated with existing junior categories (F4, F3, F2) rather than remaining isolated. The 
+        long-term goal is a unified pathway that offers competitive track time, technical training, 
+        and institutional support comparable to male development programs.
+      </p>
+    </div>
 
-        <div className="media-progress">
-          <h4>Recent Progress</h4>
-          <ul className="progress-list">
-            {mediaAnalysis.progress.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
+    <div className="future-item">
+      <h4>Changing Cultural Perceptions in Motorsport</h4>
+      <p>
+        As women achieve visibility in related series, such as W Series, Formula E, and endurance 
+        racing, public and industry perceptions about gender and racing skill are beginning to shift. 
+        These changes challenge long-standing myths about physical limitations and create a cultural 
+        environment in which female drivers are judged more on performance than on gendered expectations.
+      </p>
+    </div>
 
-        <div className="media-note">
-          <p>
-            <strong>The Visibility Cycle:</strong> More media coverage leads to more sponsorship opportunities, 
-            which leads to better equipment and results, which leads to more coverage. Breaking into this cycle 
-            is one of the biggest challenges facing women in motorsport.
-          </p>
-        </div>
-      </div>
+    <div className="future-item">
+      <h4>Early Intervention & Youth Karting Expansion</h4>
+      <p>
+        Because most F1 drivers begin karting around age seven, meaningful gender equity requires 
+        long-term investment at the earliest developmental stage. Expanded scholarship programs, 
+        accessible karting clubs, and community-based outreach could reduce the initial dropout rate 
+        among young girls and help normalize female participation in motorsport from childhood onward.
+      </p>
+    </div>
+
+    <div className="future-item">
+      <h4>Media Visibility & Sponsorship Transformation</h4>
+      <p>
+        Media visibility remains one of the most powerful levers for change. Greater coverage of women 
+        in junior categories increases marketability, attracts long-term sponsorship, and counters the 
+        historical narrative that women are outsiders in motorsport. As brands shift toward inclusive 
+        marketing strategies, female drivers may gain access to the financial resources required to 
+        progress through the expensive ladder to Formula One.
+      </p>
+    </div>
+
+  </div>
+</div>
+
 
       <div className="sources-section">
         <h3>Sources & Further Reading</h3>
         <div className="sources-list">
           <div className="source-item">
-            <a href="https://wseries.com/about-the-w-series/" target="_blank" rel="noopener noreferrer">
-              <strong>W Series (2021): About W Series</strong>
+            <a href="https://www.formula1.com/en/latest/article/breaking-w-series-to-support-f1-at-eight-races-in-2021.2z51pSDPY1eUsON84eIrdI" target="_blank" rel="noopener noreferrer">
+              <strong>W SERIES TO SUPPORT F1 AT EIGHT RACES IN 2021</strong>
             </a>
             <p className="source-description">
               Official information about W Series, an all-female racing championship designed to provide opportunities 
@@ -105,16 +123,7 @@ function Section4_Initiatives() {
               development program, representing a significant step by a major F1 team to address gender representation.
             </p>
           </div>
-          <div className="source-item">
-            <a href="https://www.womeninsport.org/research-and-advice/our-publications/where-are-all-the-women" target="_blank" rel="noopener noreferrer">
-              <strong>Women in Sport et al. (2018): Where Are All the Women? Media Visibility Report</strong>
-            </a>
-            <p className="source-description">
-              Comprehensive research report examining the visibility of women's sport in the media, revealing 
-              significant disparities in coverage and representation that impact sponsorship opportunities and 
-              public perception of women athletes.
-            </p>
-          </div>
+        
           <div className="source-item">
             <a href="http://www.bbc.co.uk/sport/formula1/42890261" target="_blank" rel="noopener noreferrer">
               <strong>BBC Sport (2018): Formula 1 Grid Girls Removed</strong>

@@ -2,7 +2,7 @@ export const initiatives = [
   {
     name: "F1 Academy",
     description: "Launched in 2023, F1 Academy is an all-female racing series designed to provide a direct pathway to Formula One. It offers full funding for drivers and races at F1 Grand Prix weekends.",
-    impact: "15 drivers compete annually with full financial support",
+    impact: "Female drivers compete annually with full financial support",
     status: "Active"
   },
   {

@@ -1,4 +1,6 @@
 import './Section3_Challenges.css';
+import { initiatives, mediaAnalysis } from '../data/initiatives';
+
 
 function Section3_Challenges() {
   const barriers = [
@@ -6,44 +8,44 @@ function Section3_Challenges() {
       category: "Historical",
       icon: "📜",
       title: "Longstanding Exclusion",
-      description: "Decades of tradition and institutional norms have created a culture where women's participation is seen as exceptional rather than expected. The sport's history itself becomes a barrier.",
+      description: "Decades of male-only participation established norms and expectations that continue shaping who is seen as belonging in motorsport. These legacies limit women's presence and opportunities today.",
       details: [
-        "73 years of male-dominated culture",
-        "Lack of role models and pathways",
-        "Institutional memory of exclusion"
+        "75 years of male-dominated competition",
+        "Few historical role models breaking through",
+        "Institutional memory of exclusion and resistance to change"
       ]
     },
     {
       category: "Financial",
       icon: "💰",
       title: "Unequal Access to Sponsorship",
-      description: "Racing is expensive. Young drivers need hundreds of thousands—often millions—in sponsorship to progress through karting, junior formulas, and into F1. Women face greater difficulty securing these funds.",
+      description: "Racing requires massive financial backing. Because sponsors overwhelmingly support male drivers, women face structural disadvantages progressing through junior formulas and into F1.",
       details: [
-        "Sponsors prefer male drivers",
-        "Lower media visibility = less sponsorship appeal",
-        "Self-funding barriers for families"
+        "Sponsorship bias favoring male prospects",
+        "Lower media visibility reduces commercial appeal",
+        "Families unable to self-fund early racing years"
       ]
     },
     {
       category: "Cultural",
-      icon: "🌍",
-      title: "Gendered Assumptions About Skill",
-      description: "Deep-seated stereotypes suggest women lack the physical strength, aggression, or mental toughness required for elite racing. These assumptions affect opportunities at every level.",
+      icon: "💭",
+      title: "Gendered Assumptions About Ability",
+      description: "Persistent stereotypes portray women as less suited for the physical and psychological demands of racing. These beliefs influence teams, sponsors, media, and grassroots entry points.",
       details: [
-        "Perceived lack of physical strength",
-        "Stereotypes about aggression and competitiveness",
-        "Social expectations and gender roles"
+        "Misconceptions about physical strength and endurance",
+        "Stereotypes around aggression and competitiveness",
+        "Broader gender norms shaping who is encouraged to race"
       ]
     },
     {
-      category: "Physical",
-      icon: "🏎️",
-      title: "Access to Karting Circuit",
-      description: "The path to F1 starts young—often in karting by age 8-10. Limited access to karting facilities, teams, and competitions creates an early bottleneck that compounds over time.",
+      category: "Developmental Pathways",
+      icon: "🏁",
+      title: "Barriers in the Karting Pipeline",
+      description: "The journey to F1 begins in childhood karting. Limited access to facilities, mentorship, and competitive opportunities creates early disadvantages that compound over time.",
       details: [
-        "Fewer opportunities in youth karting",
-        "Lack of female peers and mentors",
-        "Early development pathway gaps"
+        "Fewer opportunities in youth karting ecosystems",
+        "Lack of female peers, mentors, and community support",
+        "Gaps in early training, competition, and visibility"
       ]
     }
   ];
@@ -95,27 +97,42 @@ function Section3_Challenges() {
         </p>
       </div>
 
-      <div className="future-section">
-        <h3>Future Possibilities</h3>
-        <div className="future-grid">
-          <div className="future-item">
-            <h4>F1 Academy & Development Programs</h4>
-            <p>New initiatives like F1 Academy provide dedicated pathways for women drivers, offering funding and visibility previously unavailable.</p>
-          </div>
-          <div className="future-item">
-            <h4>Changing Perceptions</h4>
-            <p>As more women succeed in motorsport (W Series, Formula E), cultural assumptions are slowly shifting.</p>
-          </div>
-          <div className="future-item">
-            <h4>Early Intervention</h4>
-            <p>Programs targeting young girls in karting aim to address the development pathway gap from the start.</p>
-          </div>
-          <div className="future-item">
-            <h4>Media & Visibility</h4>
-            <p>Increased coverage of women in motorsport helps attract sponsors and change public perception.</p>
+      <div className="media-section">
+        <h3>Media Representation & Coverage</h3>
+        <p className="section-intro">
+          How women are represented in media significantly impacts their opportunities and public perception:
+        </p>
+
+        <div className="media-issues">
+          <h4>Key Issues in Media Coverage</h4>
+          <div className="issues-grid">
+            {mediaAnalysis.coverage.map((item, index) => (
+              <div key={index} className="issue-card">
+                <h5>{item.issue}</h5>
+                <p>{item.description}</p>
+              </div>
+            ))}
           </div>
         </div>
+
+        <div className="media-progress">
+          <h4>Recent Progress</h4>
+          <ul className="progress-list">
+            {mediaAnalysis.progress.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="media-note">
+          <p>
+            <strong>The Visibility Cycle:</strong> More media coverage leads to more sponsorship opportunities, 
+            which leads to better equipment and results, which leads to more coverage. Breaking into this cycle 
+            is one of the biggest challenges facing women in motorsport.
+          </p>
+        </div>
       </div>
+
 
       <div className="sources-section">
         <h3>Sources & Further Reading</h3>
@@ -128,6 +145,16 @@ function Section3_Challenges() {
               Research examining how professional women racecar drivers navigate and assert agency within motorsport, 
               revealing that women are "more than just a driver" and must constantly negotiate their identity and 
               position within a male-dominated sport.
+            </p>
+          </div>
+          <div className="source-item">
+            <a href="https://www.womeninsport.org/research-and-advice/our-publications/where-are-all-the-women" target="_blank" rel="noopener noreferrer">
+              <strong>Women in Sport et al. (2018): Where Are All the Women? Media Visibility Report</strong>
+            </a>
+            <p className="source-description">
+              Comprehensive research report examining the visibility of women's sport in the media, revealing 
+              significant disparities in coverage and representation that impact sponsorship opportunities and 
+              public perception of women athletes.
             </p>
           </div>
           <div className="source-item">
@@ -182,7 +209,7 @@ function Section3_Challenges() {
             </p>
           </div>
           <div className="source-item">
-            <a href="https://journals.sagepub.com/doi/abs/10.1177/0193723509345541" target="_blank" rel="noopener noreferrer">
+            <a href="https://journals.sagepub.com/doi/pdf/10.1177/0193723509350611" target="_blank" rel="noopener noreferrer">
               <strong>Pflugfelder (2009): Gendered Bodies in Motorsport</strong>
             </a>
             <p className="source-description">

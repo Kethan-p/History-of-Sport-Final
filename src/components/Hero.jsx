@@ -55,7 +55,7 @@ function Hero({ onNavigate }) {
       <div className="hero-content">
         <h1 className="hero-title">WHY ARE THERE SO FEW WOMEN IN FORMULA ONE?</h1>
         <p className="hero-subtitle">
-          How have <strong>historical, financial, cultural, and physical barriers</strong> contributed to the persistent exclusion of women from Formula One—and how do these same dynamics persist in modern motorsport?
+          How have <strong>historical, financial, cultural, and physical barriers</strong> contributed to the persistent exclusion of women from Formula One? How do these same dynamics persist in modern motorsport?
         </p>
         <div className="hero-cta">
           <button className="cta-button" onClick={() => onNavigate('overview')}>

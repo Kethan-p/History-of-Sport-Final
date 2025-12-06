@@ -5,7 +5,7 @@ function Section2_Profiles() {
   return (
     <div className="section-profiles">
       <p className="profiles-intro">
-        Throughout Formula One's 73-year history, only five women have ever raced in a Grand Prix, 
+        Throughout Formula One's 75-year history, only five women have ever raced in a Grand Prix, 
         and just one has scored championship points. Here are their stories:
       </p>
       
