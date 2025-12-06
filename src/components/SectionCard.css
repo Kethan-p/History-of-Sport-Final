@@ -1,0 +1,160 @@
+.section-card {
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.section-card:hover {
+  border-color: #e10600;
+  box-shadow: 0 4px 16px rgba(225, 6, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.section-card.open {
+  border-color: #e10600;
+  box-shadow: 0 8px 24px rgba(225, 6, 0, 0.2);
+}
+
+.section-card-header {
+  width: 100%;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: left;
+  transition: background 0.3s ease;
+  font-family: inherit;
+}
+
+.section-card-header:hover {
+  background: linear-gradient(135deg, #f0f0f0 0%, #f8f8f8 100%);
+}
+
+.section-card-header:focus {
+  outline: 3px solid #e10600;
+  outline-offset: -3px;
+}
+
+.section-card.open .section-card-header {
+  background: linear-gradient(135deg, #fff4f4 0%, #ffffff 100%);
+  border-bottom: 2px solid #e10600;
+}
+
+.section-card-number {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #e10600;
+  line-height: 1;
+  min-width: 60px;
+  text-align: center;
+  opacity: 0.3;
+}
+
+.section-card.open .section-card-number {
+  opacity: 1;
+}
+
+.section-card-text {
+  flex: 1;
+}
+
+.section-card-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.2;
+}
+
+.section-card.open .section-card-title {
+  color: #e10600;
+}
+
+.section-card-subtitle {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #666;
+  font-weight: 400;
+}
+
+.section-card-arrow {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #e10600;
+  min-width: 40px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.section-card.open .section-card-arrow {
+  transform: rotate(0deg);
+}
+
+.section-card-content {
+  padding: 2.5rem;
+  background: #ffffff;
+  animation: slideDown 0.4s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 968px) {
+  .section-card-header {
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .section-card-number {
+    font-size: 2.5rem;
+    min-width: 50px;
+  }
+
+  .section-card-title {
+    font-size: 1.3rem;
+  }
+
+  .section-card-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .section-card-content {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-card-header {
+    padding: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+  .section-card-number {
+    font-size: 2rem;
+    min-width: 40px;
+  }
+
+  .section-card-title {
+    font-size: 1.1rem;
+  }
+
+  .section-card-arrow {
+    font-size: 1.5rem;
+    min-width: 30px;
+  }
+}
+
