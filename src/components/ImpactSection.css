@@ -1,0 +1,359 @@
+.impact-section {
+  padding: 4rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  color: #ffffff;
+}
+
+.impact-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.impact-header h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #ff3333 0%, #ff6666 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.impact-tagline {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #cccccc;
+  font-style: italic;
+}
+
+/* Impact Statistics Grid */
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.impact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 51, 51, 0.3);
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.impact-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255, 51, 51, 0.8);
+  box-shadow: 0 12px 40px rgba(255, 51, 51, 0.3);
+}
+
+.impact-card-primary {
+  border-width: 3px;
+  border-color: rgba(255, 51, 51, 0.6);
+}
+
+.impact-stat {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #ff3333;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.impact-label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.impact-context {
+  font-size: 1rem;
+  color: #999999;
+  margin-bottom: 1rem;
+}
+
+.impact-percentage {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff6666;
+}
+
+/* Quote Section */
+.impact-quote-section {
+  background: rgba(255, 51, 51, 0.1);
+  border-left: 6px solid #ff3333;
+  padding: 3rem;
+  margin: 4rem 0;
+  border-radius: 8px;
+}
+
+.impact-quote {
+  margin: 0;
+}
+
+.quote-text {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.quote-attribution {
+  font-size: 1.1rem;
+  color: #ff6666;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.quote-context {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #cccccc;
+  font-weight: 500;
+}
+
+/* Visual Story Section */
+.visual-story-section {
+  margin-top: 5rem;
+}
+
+.visual-story-section h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Image Placeholders */
+.image-placeholder {
+  background: linear-gradient(135deg, rgba(255, 51, 51, 0.15) 0%, rgba(255, 51, 51, 0.05) 100%);
+  border: 3px dashed rgba(255, 51, 51, 0.5);
+  border-radius: 12px;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.image-placeholder:hover {
+  border-color: rgba(255, 51, 51, 0.8);
+  background: linear-gradient(135deg, rgba(255, 51, 51, 0.2) 0%, rgba(255, 51, 51, 0.1) 100%);
+}
+
+.placeholder-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.placeholder-icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.placeholder-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ff3333;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.placeholder-description {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.placeholder-source {
+  font-size: 0.95rem;
+  color: #999999;
+  font-style: italic;
+}
+
+.placeholder-source strong {
+  color: #ff6666;
+}
+
+/* Pioneers Gallery */
+.pioneers-gallery {
+  margin-top: 5rem;
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+}
+
+.pioneers-gallery h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+.pioneers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pioneer-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.pioneer-card.featured {
+  border-color: rgba(255, 51, 51, 0.6);
+  border-width: 3px;
+  background: rgba(255, 51, 51, 0.1);
+}
+
+.pioneer-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 51, 51, 0.8);
+  box-shadow: 0 8px 30px rgba(255, 51, 51, 0.2);
+}
+
+.pioneer-image-placeholder {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pioneer-image-placeholder .placeholder-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.pioneer-image-placeholder p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.pioneer-info {
+  text-align: center;
+}
+
+.pioneer-year {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ff6666;
+  margin-bottom: 0.5rem;
+}
+
+.pioneer-achievement {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.pioneer-detail {
+  font-size: 0.9rem;
+  color: #999999;
+  margin-bottom: 0.3rem;
+}
+
+.pioneer-note {
+  font-size: 0.85rem;
+  color: #cccccc;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.pioneers-note {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #999999;
+  font-style: italic;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 51, 51, 0.05);
+  border-radius: 8px;
+}
+
+.pioneers-note strong {
+  color: #ff6666;
+}
+
+/* Impact Conclusion */
+.impact-conclusion {
+  margin-top: 5rem;
+  text-align: center;
+  padding: 3rem;
+  background: linear-gradient(135deg, rgba(255, 51, 51, 0.2) 0%, rgba(255, 51, 51, 0.05) 100%);
+  border-radius: 16px;
+}
+
+.impact-conclusion h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #ff3333;
+}
+
+.impact-conclusion p {
+  font-size: 1.3rem;
+  color: #cccccc;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .impact-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .impact-tagline {
+    font-size: 1.2rem;
+  }
+
+  .impact-stat {
+    font-size: 3.5rem;
+  }
+
+  .quote-text {
+    font-size: 1.4rem;
+  }
+
+  .pioneers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-conclusion h3 {
+    font-size: 2rem;
+  }
+
+  .impact-conclusion p {
+    font-size: 1.1rem;
+  }
+}

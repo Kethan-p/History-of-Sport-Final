@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import ImpactSection from './components/ImpactSection';
 import Section1_Overview from './components/Section1_Overview';
 import Section2_Profiles from './components/Section2_Profiles';
 import Section3_Challenges from './components/Section3_Challenges';
@@ -21,6 +22,7 @@ function App() {
       case 'overview':
         return (
           <div className="page-content">
+            <ImpactSection />
             <Section1_Overview />
           </div>
         );

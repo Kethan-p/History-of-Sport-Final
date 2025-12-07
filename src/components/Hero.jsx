@@ -27,7 +27,7 @@ function Hero({ onNavigate }) {
             stroke="rgba(255, 51, 51, 0.5)"
             strokeWidth="3"
           />
-          
+
           {/* Speed lines/stripes */}
           <g className="speed-lines">
             <line className="speed-line" x1="0" y1="380" x2="150" y2="380" stroke="rgba(255, 51, 51, 0.5)" strokeWidth="3" />
@@ -41,7 +41,7 @@ function Hero({ onNavigate }) {
             <line className="speed-line" x1="1600" y1="780" x2="1750" y2="780" stroke="rgba(255, 51, 51, 0.5)" strokeWidth="3" />
             <line className="speed-line" x1="1800" y1="820" x2="1950" y2="820" stroke="rgba(255, 51, 51, 0.5)" strokeWidth="3" />
           </g>
-          
+
           {/* Additional curved track elements */}
           <path
             className="track-line track-line-4"
@@ -55,7 +55,10 @@ function Hero({ onNavigate }) {
       <div className="hero-content">
         <h1 className="hero-title">WHY ARE THERE SO FEW WOMEN IN FORMULA ONE?</h1>
         <p className="hero-subtitle">
-          How have <strong>historical, financial, cultural, and physical barriers</strong> contributed to the persistent exclusion of women from Formula One? How do these same dynamics persist in modern motorsport?
+          In 75 years of Formula One, only <strong>5 women</strong> have ever raced. The last was in <strong>1976</strong>—nearly 50 years ago.
+          This isn't coincidence. It's the result of <strong>interconnected barriers</strong>—financial inequality, cultural stereotypes,
+          and a system designed to keep women out. This website reveals how these forces work together to maintain one of sport's
+          most persistent gender gaps.
         </p>
         <div className="hero-cta">
           <button className="cta-button" onClick={() => onNavigate('overview')}>
