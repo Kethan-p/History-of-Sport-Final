@@ -55,10 +55,9 @@ function Hero({ onNavigate }) {
       <div className="hero-content">
         <h1 className="hero-title">WHY ARE THERE SO FEW WOMEN IN FORMULA ONE?</h1>
         <p className="hero-subtitle">
-          In 75 years of Formula One, only <strong>5 women</strong> have ever raced. The last was in <strong>1976</strong>—nearly 50 years ago.
-          This isn't coincidence. It's the result of <strong>interconnected barriers</strong>—financial inequality, cultural stereotypes,
-          and a system designed to keep women out. This website reveals how these forces work together to maintain one of sport's
-          most persistent gender gaps.
+          In 75 years of Formula One, only <strong>5 women</strong> have ever raced. The last was in <strong>1976</strong>, nearly 50 years ago.
+          This isn't coincidence. It's the result of <strong>interconnected barriers</strong>, such as financial inequality, cultural stereotypes,
+          and historical exclusion. This website explores how these forces work together to maintain one of sport's most persistent gender gaps.
         </p>
         <div className="hero-cta">
           <button className="cta-button" onClick={() => onNavigate('overview')}>

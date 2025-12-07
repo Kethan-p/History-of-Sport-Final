@@ -5,10 +5,10 @@ function Section2_Profiles() {
   return (
     <div className="section-profiles">
       <p className="profiles-intro">
-        Throughout Formula One's 75-year history, only five women have ever raced in a Grand Prix, 
+        Throughout Formula One's 75-year history, only five women have ever raced in a Grand Prix,
         and just one has scored championship points. Here are their stories:
       </p>
-      
+
       <div className="timeline">
         {drivers.map((driver, index) => (
           <div key={index} className="timeline-item">
@@ -27,10 +27,10 @@ function Section2_Profiles() {
           </div>
         ))}
       </div>
-      
+
       <div className="profiles-note">
         <p>
-          <strong>Note:</strong> The last woman to race in a Grand Prix was Lella Lombardi in 1976—nearly 50 years ago. 
+          <strong>Note:</strong> The last woman to race in a Grand Prix was Lella Lombardi in 1976, nearly 50 years ago.
           Since then, only Susie Wolff has participated in official F1 sessions (practice), but no woman has started a race.
         </p>
       </div>
@@ -43,9 +43,9 @@ function Section2_Profiles() {
               <strong>Old Boys' Club? Women Are Making Strides in Formula One But Still Have Not Made a Starting Grid in 40 Years</strong>
             </a>
             <p className="source-description">
-              This article examines the persistent absence of women from Formula One's starting grid despite 
-              decades of progress in other areas of the sport. It highlights how women have made significant 
-              strides in engineering, management, and support roles, yet remain excluded from the driver's seat, 
+              This article examines the persistent absence of women from Formula One's starting grid despite
+              decades of progress in other areas of the sport. It highlights how women have made significant
+              strides in engineering, management, and support roles, yet remain excluded from the driver's seat,
               pointing to deeper structural barriers within the "old boys' club" culture of motorsport.
             </p>
           </div>
@@ -54,7 +54,7 @@ function Section2_Profiles() {
               <strong>Barretto (2012): Where Are All the Women Drivers?</strong>
             </a>
             <p className="source-description">
-              BBC Sport analysis questioning the absence of women drivers in Formula One, examining the historical 
+              BBC Sport analysis questioning the absence of women drivers in Formula One, examining the historical
               context and barriers that have prevented women from competing at the highest level of motorsport.
             </p>
           </div>
@@ -63,8 +63,8 @@ function Section2_Profiles() {
               <strong>Wolff (2015): Time to Hang Up the Helmet</strong>
             </a>
             <p className="source-description">
-              Susie Wolff's personal account of her retirement from Formula One, reflecting on her experiences as 
-              the first woman in 22 years to participate in F1 weekend sessions and the challenges she faced 
+              Susie Wolff's personal account of her retirement from Formula One, reflecting on her experiences as
+              the first woman in 22 years to participate in F1 weekend sessions and the challenges she faced
               throughout her career.
             </p>
           </div>
@@ -73,7 +73,7 @@ function Section2_Profiles() {
               <strong>Fédération Internationale de l'Automobile: Women Through the Decades</strong>
             </a>
             <p className="source-description">
-              Official FIA documentation providing historical records of women who have participated in Formula One, 
+              Official FIA documentation providing historical records of women who have participated in Formula One,
               including detailed profiles and achievements of the few women who have raced in Grand Prix events.
             </p>
           </div>
@@ -82,8 +82,8 @@ function Section2_Profiles() {
               <strong>Critical Examination of Women's Participation in Formula One</strong>
             </a>
             <p className="source-description">
-              Historical analysis of the few women who have competed in Formula One, examining their achievements, 
-              challenges, and the systemic barriers they faced. The study provides context for understanding why 
+              Historical analysis of the few women who have competed in Formula One, examining their achievements,
+              challenges, and the systemic barriers they faced. The study provides context for understanding why
               women's participation has remained so limited throughout the sport's history.
             </p>
           </div>
