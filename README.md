@@ -11,14 +11,6 @@ This website examines why women remain underrepresented in Formula One through f
 3. **Future Possibilities & Challenges** - Analysis of historical, financial, cultural, and physical barriers
 4. **Current Initiatives & Media Representation** - Programs promoting women in F1 and media coverage analysis
 
-## Features
-
-- Interactive dropdown/accordion sections for easy navigation
-- Responsive design optimized for all devices
-- Accessible design with keyboard navigation support
-- F1-inspired color palette with modern, clean aesthetics
-- Brief, punchy content designed for everyday audiences
-
 ## Getting Started
 
 ### Prerequisites
@@ -90,7 +82,3 @@ The website draws from:
 - Formula One Official Records
 - Motorsport.com, The Race, Autosport
 - Academic studies on gender in motorsport
-
-## License
-
-Created for educational purposes to raise awareness about gender representation in motorsport.
