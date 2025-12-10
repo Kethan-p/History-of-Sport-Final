@@ -97,7 +97,7 @@ function Section4_Initiatives() {
           </div>
           <div className="source-item">
             <a href="https://www.espn.com.au/f1/story/_/id/26655581/why-controversial-w-series-deserves-chance-make-difference" target="_blank" rel="noopener noreferrer">
-              <strong>Saunders (2019): Why Controversial W Series Deserves a Chance</strong>
+              <strong>Saunders (2019): Why Controversial W Series Deserves a Chance to Make a Difference</strong>
             </a>
             <p className="source-description">
               Analysis of the W Series initiative, addressing both its potential benefits for women in motorsport and
@@ -107,7 +107,7 @@ function Section4_Initiatives() {
           </div>
           <div className="source-item">
             <a href="https://www.autosport.com/f1/news/ferraris-female-driver-push-not-a-marketing-plan-w-series-ceo-4984514/4984514/" target="_blank" rel="noopener noreferrer">
-              <strong>Cooper (2020): Ferrari's Female Driver Push</strong>
+              <strong>Cooper (2020): Ferrari's female driver push not a "marketing plan" - W Series CEO</strong>
             </a>
             <p className="source-description">
               Coverage of Ferrari's initiative to promote female drivers, including their junior program efforts and
@@ -126,7 +126,7 @@ function Section4_Initiatives() {
 
           <div className="source-item">
             <a href="http://www.bbc.co.uk/sport/formula1/42890261" target="_blank" rel="noopener noreferrer">
-              <strong>BBC Sport (2018): Formula 1 Grid Girls Removed</strong>
+              <strong>BBC Sport (2018): Formula 1: 'Grid girls' will not be used at races this season</strong>
             </a>
             <p className="source-description">
               Coverage of Formula One's decision to discontinue the use of "grid girls" at races, representing a
@@ -136,7 +136,7 @@ function Section4_Initiatives() {
           </div>
           <div className="source-item">
             <a href="https://journals.sagepub.com/doi/full/10.1177/13505068221094204" target="_blank" rel="noopener noreferrer">
-              <strong>Critical Examination of Women's Participation in Formula One</strong>
+              <strong>Hitting the barriers – Women in Formula 1 and W series racing</strong>
             </a>
             <p className="source-description">
               This study examines current initiatives and programs designed to promote women in Formula One,
@@ -146,7 +146,7 @@ function Section4_Initiatives() {
           </div>
           <div className="source-item">
             <a href="https://www.sciencedirect.com/science/article/abs/pii/S1469029220308232?via%3Dihub" target="_blank" rel="noopener noreferrer">
-              <strong>Women in Autoracing: Navigating Gender, Barriers, and Opportunities</strong>
+              <strong>More than “just a driver”: A study of professional women racecar drivers' agency in motorsport</strong>
             </a>
             <p className="source-description">
               Research on promoting girls and women in autoracing reveals the importance of early intervention,

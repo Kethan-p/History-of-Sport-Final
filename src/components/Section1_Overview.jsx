@@ -83,7 +83,7 @@ function Section1_Overview() {
         <div className="sources-list">
           <div className="source-item">
             <a href="https://journals.sagepub.com/doi/full/10.1177/13505068221094204" target="_blank" rel="noopener noreferrer">
-              <strong>Critical Examination of Women's Participation in Formula One</strong>
+              <strong>Hitting the barriers – Women in Formula 1 and W series racing</strong>
             </a>
             <p className="source-description">
               A comprehensive academic analysis exploring the structural, cultural, and institutional barriers
@@ -103,7 +103,7 @@ function Section1_Overview() {
           </div>
           <div className="source-item">
             <a href="https://www.tandfonline.com/doi/full/10.1080/09523367.2016.1168811" target="_blank" rel="noopener noreferrer">
-              <strong>Matthews & Pike (2016): Understanding Women in Motorsport</strong>
+              <strong>Matthews & Pike (2016): ‘What on Earth are They Doing in a Racing Car?’: Towards an Understanding of Women in Motorsport</strong>
             </a>
             <p className="source-description">
               Academic research examining the historical and contemporary experiences of women in motorsport,
@@ -113,7 +113,7 @@ function Section1_Overview() {
           </div>
           <div className="source-item">
             <a href="https://journals.sagepub.com/doi/pdf/10.1177/0193723509350611" target="_blank" rel="noopener noreferrer">
-              <strong>Pflugfelder (2009): Gendered Bodies in Motorsport</strong>
+              <strong>Pflugfelder (2009): Something Less than a Driver: Toward an Understanding of Gendered Bodies in Motorsport</strong>
             </a>
             <p className="source-description">
               Scholarly analysis of how motorsport constructs gendered bodies and spaces, examining how the

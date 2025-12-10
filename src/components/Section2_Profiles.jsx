@@ -51,7 +51,7 @@ function Section2_Profiles() {
           </div>
           <div className="source-item">
             <a href="https://www.bbc.co.uk/sport/formula1/18332772" target="_blank" rel="noopener noreferrer">
-              <strong>Barretto (2012): Where Are All the Women Drivers?</strong>
+              <strong>Barretto (2012): Where are all the female Formula 1 racing drivers?</strong>
             </a>
             <p className="source-description">
               BBC Sport analysis questioning the absence of women drivers in Formula One, examining the historical
@@ -79,7 +79,7 @@ function Section2_Profiles() {
           </div>
           <div className="source-item">
             <a href="https://journals.sagepub.com/doi/full/10.1177/13505068221094204" target="_blank" rel="noopener noreferrer">
-              <strong>Critical Examination of Women's Participation in Formula One</strong>
+              <strong>Hitting the barriers – Women in Formula 1 and W series racing</strong>
             </a>
             <p className="source-description">
               Historical analysis of the few women who have competed in Formula One, examining their achievements,
